@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:orientation="vertical"
+  android:weightSum="1">
+
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.50" />
+
+  <EditText
+    android:id="@+id/txt_Email_register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:background="@color/colorAccent"
+    android:hint="E mail"
+    android:inputType="textEmailAddress"
+    android:padding="10dp"
+    android:textColor="@color/colorPrimaryDark"
+    android:textColorHint="@color/colorPrimaryDark"
+    android:textSize="20sp" />
+
+  <EditText
+    android:id="@+id/txtPassword_register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="15dp"
+    android:background="@color/colorAccent"
+    android:hint="Şifre"
+    android:inputType="numberPassword"
+    android:padding="10dp"
+    android:textColor="@color/colorPrimaryDark"
+    android:textColorHint="@color/colorPrimaryDark"
+    android:textSize="20sp" />
+
+  <Button
+    android:id="@+id/btnKayitOl_register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="15dp"
+    android:background="@color/colorPrimary"
+    android:padding="10dp"
+    android:text="Kayıt ol"
+    android:textColor="@color/common_google_signin_btn_text_light_default"
+    android:textStyle="bold" />
+
+  <Button
+    android:id="@+id/btnGirisYap_register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="15dp"
+    android:background="@color/colorPrimary"
+    android:padding="10dp"
+    android:text="giriş yap"
+    android:textColor="@color/common_google_signin_btn_text_light_default"
+    android:textStyle="bold" />
+
+
+</LinearLayout>
+

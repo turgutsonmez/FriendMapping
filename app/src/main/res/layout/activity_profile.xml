@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="10dp"
+  android:background="#8d8d8d">
+
+  <EditText
+    android:id="@+id/profil_duzenle_txtad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Ad"
+    android:inputType="textPersonName" />
+
+  <EditText
+    android:id="@+id/profil_duzenle_txtsoyad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Soyad"
+    android:inputType="textPersonName" />
+
+  <EditText
+    android:id="@+id/profil_duzenle_txtemail"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Email"
+    android:inputType="textEmailAddress" />
+  <EditText
+    android:id="@+id/profil_duzenle_txtlat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="lat"
+    android:inputType="textEmailAddress" />
+  <EditText
+    android:id="@+id/profil_duzenle_txtlng"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="lng"
+    android:inputType="textEmailAddress" />
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView
+      android:id="@+id/profil_duzenle_txtDogumTarihi"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.3" />
+
+    <Button
+      android:id="@+id/profil_duzenle_btnTakvim"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.7"
+      android:text="takvim" />
+  </LinearLayout>
+
+  <ImageView
+    android:id="@+id/profil_duzenle_imgview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.9"
+    android:scaleType="fitXY"
+    app:srcCompat="@android:drawable/ic_menu_camera" />
+
+  <Button
+    android:id="@+id/profil_duzenle_btnguncelle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="güncelle" />
+
+</LinearLayout>
